@@ -1,0 +1,43 @@
+# Raw and processed data
+
+data/raw/*
+data/processed/*
+
+# Results
+
+*.csv
+*.xlsx
+*.xls
+
+# Python
+
+**pycache**/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+
+# macOS
+
+.DS_Store
+
+# Conda / environments
+
+.env
+.venv
+
+# Packaging
+
+*.egg-info/
+
+
+src.egg-info/
+__pycache__/
+__pycache__/
+*.egg-info/
+src.egg-info/
+.DS_Store
+**/.DS_Store
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+data/raw/
+README.md.save
