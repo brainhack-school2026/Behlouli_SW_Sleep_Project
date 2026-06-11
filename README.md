@@ -7,7 +7,7 @@ Center for Advanced Research in Sleep Medicine, Polytechnique Montréal
 > Can regional NREM slow-wave sleep biomarkers help predict phenoconversion in isolated REM Sleep Behavior Disorder?
 
 <p align="center">
-  <img src="https://avatars.githubusercontent.com/u/282736346?s=400&u=3e87376b1a07c6ad5b2a3b86ce9b01f589429d41&v=4" width="300">
+  <img src="https://avatars.githubusercontent.com/u/282736346?s=400&u=3e87376b1a07c6ad5b2a3b86ce9b01f589429d41&v=4" width="500">
 </p>
 
 ---
