@@ -7,7 +7,7 @@ Center for Advanced Research in Sleep Medicine, Polytechnique Montréal
 > Can regional NREM slow-wave sleep biomarkers help predict phenoconversion in isolated REM Sleep Behavior Disorder?
 
 <p align="center">
-  <img src="figures/presentation/robust_biomarkers_brain_template.png" width="700">
+  <img src="https://avatars.githubusercontent.com/u/282736346?s=400&u=3e87376b1a07c6ad5b2a3b86ce9b01f589429d41&v=4" width="300">
 </p>
 
 ---
@@ -53,8 +53,14 @@ This project focuses on regional slow-wave biomarkers extracted from N2 and N3 s
 ---
 
 ## Tools
+## Tools
 
-This project uses:
+One of my main objectives during BrainHack School was to move beyond my original analysis workflow and adopt more reproducible and scalable research practices, for myself in the future, and my peers
+
+Although the scientific questions of this project were already defined, BrainHack provided an opportunity to restructure the entire workflow using open-science tools and computational methods that were new to me. I wanted to develop a complete, reproducible pipeline that could be reused, extended, and shared with other researchers.
+
+To achieve this goal, the project uses the following tools:
+
 
 * **Git** and **GitHub** for version control and project sharing.
 * **Python** for scripting and reproducible analyses.
@@ -65,13 +71,17 @@ This project uses:
 * **matplotlib** for scientific visualization.
 * **Markdown** for project documentation.
 
-These tools reflect the open-science and reproducibility principles emphasized during BrainHack School.
-
 ---
 
 ## Data
 
-The dataset contains pre-extracted slow-wave EEG features from iRBD participants. The analyses begin from previously extracted slow-wave characteristics rather than raw EEG recordings.
+The dataset used in this project is derived from a longitudinal study conducted at the Center for Advanced Research in Sleep Medicine (CARSM) in Montreal.
+
+Participants underwent a full night of monitored sleep recording alongside standardized neurological and neuropsychological evaluations, including the Unified Parkinson's Disease Rating Scale (UPDRS Parts I and III), the Mini-Mental State Examination (MMSE), and the Montreal Cognitive Assessment (MoCA), allowing the characterization of both motor and cognitive functioning.
+
+All slow-wave detections were performed automatically using the Snooze software and subsequently verified visually to ensure data quality.
+
+Because the analyses presented here rely on previously extracted slow-wave characteristics, the first step of this project consisted of verifying the integrity of the dataset and ensuring that slow-wave variables, electrodes, participant identifiers, and conversion status were correctly defined before building the analysis pipeline.
 
 After preprocessing and participant exclusions, the final dataset included:
 
@@ -141,17 +151,13 @@ The workflow was designed to answer the research question at three complementary
 
 ## Project Deliverables
 
-The final project includes:
+The project includes :
 
-* A documented and version-controlled GitHub repository.
-* Python scripts for preprocessing, ANCOVA, and machine learning.
-* Jupyter notebooks for quality control, visualization, and reporting.
-* Repeated-measures ANCOVA results.
-* Linear SVM and Logistic Regression analyses.
-* Regional versus global classifier comparisons.
-* Exploratory DLB versus Parkinson analyses.
-* Presentation-ready figures.
-* Comprehensive Markdown documentation.
+* A reproducible Python workflow for the analysis of regional slow-wave sleep biomarkers in isolated REM Sleep Behavior Disorder (iRBD).
+* A statistical framework using repeated-measures ANCOVA to identify slow-wave characteristics associated with future phenoconversion while controlling for clinical covariates.
+* An interpretable machine-learning pipeline using Linear SVM to evaluate the predictive value of regional sleep biomarkers and identify the most informative features.
+* A comparative analysis of regional versus global biomarker models, as well as an exploratory DLB versus Parkinson subtype investigation.
+* A fully documented and version-controlled GitHub repository including reusable scripts, Jupyter notebooks, scientific figures, methodological reports, and presentation materials.
 
 ---
 
@@ -285,6 +291,8 @@ The DLB versus Parkinson comparison remains exploratory. Although no biomarker s
 ### Overall Conclusion
 
 This project supports the hypothesis that sleep EEG biomarkers may help characterize prodromal neurodegeneration in iRBD and highlights the importance of regional slow-wave organization for predicting phenoconversion risk.
+Beyond the scientific findings, this project represents a pivotal transition in my research methodology. BrainHack School facilitated a shift from my, manual workflows toward a collaborative paradigm and community-driven standards. 
+I have gained technical proficiency in implementing computational pipelines significantly enhancing the efficiency, transparency, and reproducibility of my work. This exposure to professional practices, including modular Python scripting and version control, has  transformed my approach to my future analysis. 
 
 <p align="center">
   <img src="figures/presentation/final_project_summary.png" width="850">
