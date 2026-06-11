@@ -53,7 +53,6 @@ This project focuses on regional slow-wave biomarkers extracted from N2 and N3 s
 ---
 
 ## Tools
-## Tools
 
 One of my main objectives during BrainHack School was to move beyond my original analysis workflow and adopt more reproducible and scalable research practices, for myself in the future, and my peers
 
@@ -114,6 +113,7 @@ To protect participant confidentiality, the raw and processed datasets are not i
 This repository contains the complete analysis workflow, source code, documentation, and figures required to reproduce the analyses once access to the data has been granted.
 
 Researchers interested in accessing the original data may contact the Center for Advanced Research in Sleep Medicine (CARSM) and the project author to discuss data access requirements and approval.
+
 ---
 
 ## Regional Feature Construction
